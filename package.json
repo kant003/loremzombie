@@ -1,0 +1,43 @@
+{
+    "name": "loremzombie",
+    "displayName": "LoremZombie",
+    "description": "Is a version zombie of a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation. Replacing meaningful content with placeholder text allows designers to design the form of the content before the content itself has been produced",
+    "icon": "images/logo.png",
+    "version": "0.0.1",
+    "author": "Angel Gonzalez Martinez",
+    "license": "MIT",
+    "publisher": "angelgonzalez",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kant003/loremzombie.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kant003/loremzombie/issues"
+    },
+    "homepage": "https://github.com/kant003/loremzombie",
+    "categories": [
+        "Languages",
+        "Snippets",
+        "Other"
+    ],
+    "keywords": [
+        "HTML",
+        "Languages",
+        "Snippets",
+        "Web",
+        "lorem",
+        "ipsum",
+        "lorem ipsum"
+    ],
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
+            }
+        ]
+    }
+}
